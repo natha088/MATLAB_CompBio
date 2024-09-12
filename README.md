@@ -12,4 +12,6 @@ Usage Example:
 
 populateTemp('6b1g.pdb',[[1:80'],[1:80']],'new_6b1g.pdb')
 
+Open files in PyMOL and color by tempFactor column: spectrum b, blue yellow cyan neon pink grey
+
 ![Alt text](images/populateTemp.png)
