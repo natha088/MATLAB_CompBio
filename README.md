@@ -1,4 +1,4 @@
-# Python_CompBio
+# MATLAB_CompBio
 Python Scripts for Various Computational Biology Tasks
 ## populateTemp
 This function can swap out the tempFactor column in a PDB file with any numeric column vector inputted by the user. This function can be used to populate per residue continuous metrics from molecular dynamics such as RMSD, surface area, hydrogen bond lifetimes; or per residue discrete/categorical metrics such as sites of post-translational modification or disease-associated mutations.
