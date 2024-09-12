@@ -12,4 +12,4 @@ Usage Example:
 
 populateTemp('6b1g.pdb',[[1:80'],[1:80']],'new_6b1g.pdb')
 
-
+![Alt text](images/populateTemp.png)
