@@ -6,6 +6,7 @@ This function can swap out the tempFactor column in a PDB file with any numeric 
 populateTemp(pdb, col, name) 
 
 INPUTS:
+
 pdb: filename
 
 col: numeric column vector (M x N, where N is number of residues in PDB structure and M is the number of chains)
@@ -30,6 +31,7 @@ Nathan Kochen, N., Vasandani, V., Seaney, D., Pandey, A. K., Walters, M. A., Bra
 [f, g, l] = fit_int_autocorr(t,h)
 
 INPUTS:
+
 t: autocorrelation time window (need to know sampling rate to generate appropriate vector, use linspace()) 
 
 h: per residue hydrogen bond count autocorrelation
