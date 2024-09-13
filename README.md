@@ -21,7 +21,11 @@ Open files in PyMOL and color by tempFactor column: spectrum b, blue yellow cyan
 ![Alt text](images/populateTemp.png)
 
 ## fit_int_autocorr
-This function integrates the per residue hydrogen bond count autocorrelation function extracted from solvated molecular dynamics to calculate the average hydrogen bond lifetime at each residue of the simulated protein.
+This function integrates the per residue hydrogen bond count autocorrelation function extracted from solvated molecular dynamics to calculate the average hydrogen bond lifetime at each residue of the simulated protein. See following references for applications:
+
+Kochen, N. N., Seaney, D., Vasandani, V., Murray, M., Braun, A. R., & Sachs, J. N. (2024). Post-translational modification sites are present in hydrophilic cavities of alpha-synuclein, tau, FUS, and TDP-43 fibrils: A molecular dynamics study. Proteins, 92(7), 854–864. https://doi.org/10.1002/prot.26679
+
+Nathan Kochen, N., Vasandani, V., Seaney, D., Pandey, A. K., Walters, M. A., Braun, A. R., & Sachs, J. N. (2022). Threonine Cavities Are Targetable Motifs That Control Alpha-Synuclein Fibril Growth. ACS chemical neuroscience, 13(17), 2646–2657. https://doi.org/10.1021/acschemneuro.2c00327
 
 [f, g, l] = fit_int_autocorr(t,h)
 
