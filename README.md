@@ -37,7 +37,7 @@ g: goodness of fit
 
 l: per resiude integrated average hydrogen bond lifetime
 
-<img src="images/hbl_result.png" alt="Alt text" width="400"/>
+<img src="images/hbl_result.png" alt="Alt text" width="800"/>
 
 
 
