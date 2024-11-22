@@ -49,6 +49,28 @@ Kochen, N. N., Seaney, D., Vasandani, V., Murray, M., Braun, A. R., & Sachs, J. 
 
 Nathan Kochen, N., Vasandani, V., Seaney, D., Pandey, A. K., Walters, M. A., Braun, A. R., & Sachs, J. N. (2022). Threonine Cavities Are Targetable Motifs That Control Alpha-Synuclein Fibril Growth. ACS chemical neuroscience, 13(17), 2646–2657. https://doi.org/10.1021/acschemneuro.2c00327
 
+## convert_to_fasta
+This function converts a list of DNA, RNA or protein sequences (entered in separate lines) to a FASTA file with numerical headers (1,2,3,...,N, where N is the number of sequences in the input text file). Useful for downstream analysis of sequences such as (motif search, multiple sequence alignment, etc). 
+
+INPUTS:
+input_file: text file with list of sequences entered in separate lines
+
+OUTPUTS:
+output.fasta: FASTA file with input sequences and numerical headers
+
+Example: 
+
+If the following sequences are inputted: 
+
+UAGGUGGCAGGGCAGAAACUGGGCAGCCCUGACUUGAUAGC
+AUAGUGUGUGUGAGGAAACAGUAGAAG
+
+The resulting output is: 
+
+>1
+UAGGUGGCAGGGCAGAAACUGGGCAGCCCUGACUUGAUAGC
+>2
+AUAGUGUGUGUGAGGAAACAGUAGAAG
 
 
 
