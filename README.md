@@ -73,7 +73,7 @@ UAGGUGGCAGGGCAGAAACUGGGCAGCCCUGACUUGAUAGC <br>
 AUAGUGUGUGUGAGGAAACAGUAGAAG
 
 ## stressGranules
-This script quantifies puncta from fluorescence images (puncta channel + nuclear channel required). 
+This script quantifies cytoplasmic and nuclear puncta from fluorescence images (puncta channel + nuclear channel required). Example below is of human FUS, a protein involved in ALS, under proteasomal stress (MG-132) and hyperosmotic stress (sorbitol), which cause FUS to aggregate into puncta.
 
 ![Alt text](images/stress_granule_result.png)
 
