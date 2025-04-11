@@ -72,8 +72,16 @@ UAGGUGGCAGGGCAGAAACUGGGCAGCCCUGACUUGAUAGC <br>
 \>2<br>
 AUAGUGUGUGUGAGGAAACAGUAGAAG
 
+## stressGranules
+This script quantifies puncta from fluorescence images (puncta channel + nuclear channel required). 
+
+![Alt text](images/stress_granule_result.png)
 
 
+## neuriteLength
+This script automatically quantifies average neurite length from neuronal organoids with similar performance as ImageJ neurite tracker function. 
+
+![Alt text](images/neurite_length_result.png)
 
 
 
