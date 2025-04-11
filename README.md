@@ -79,7 +79,7 @@ This script quantifies cytoplasmic and nuclear puncta from fluorescence images (
 
 
 ## neuriteLength
-This script automatically quantifies average neurite length from neurospheres with similar performance as ImageJ neurite tracker function. Instead of having to draw all neurites, this script only requires the user to manually delineate the perimeter of each neurosphere for normalization of total neurite length. 
+This script automatically quantifies average neurite length from neurospheres with similar performance as ImageJ neurite tracker function. Instead of having to draw all neurites, this script only requires the user to manually delineate the perimeter of each neurosphere for normalization of total neurite length. Images below are of wildtype (WT) and A53T alpha-synuclein (aSyn) expressing neurospheres. aSyn is a protein involved in Parkinson's disease, and the A53T mutation causes protein aggregation and neuronal death. A53T-expressing neurospheres have lower normalized neurite length relative to WT. 
 
 ![Alt text](images/neurite_length_result.png)
 
