@@ -79,7 +79,7 @@ This script quantifies cytoplasmic and nuclear puncta from fluorescence images (
 
 
 ## neuriteLength
-This script automatically quantifies average neurite length from neuronal organoids with similar performance as ImageJ neurite tracker function. 
+This script automatically quantifies average neurite length from neurospheres with similar performance as ImageJ neurite tracker function. Instead of having to draw all neurites, this script only requires the user to manually delineate the perimeter of each neurosphere for normalization of total neurite length. 
 
 ![Alt text](images/neurite_length_result.png)
 
