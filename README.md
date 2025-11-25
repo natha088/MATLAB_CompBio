@@ -83,5 +83,13 @@ This script automatically quantifies average neurite length from neurospheres wi
 
 ![Alt text](images/neurite_length_result.png)
 
+## generate_peptide_lib
+This script generates the PyMOL commands to generate a complete combinatorial library of l number of amino acids. Used for generating 2-mer and 3-mer combinatorial peptide libraries for in silico molecular docking campaigns.
 
+INPUTS: 
+l: number of amino acids for peptide library
 
+OUTPUTS:
+2mer_pdb.txt: text file containing PyMOL commands to generate peptide library. Directly paste text file contents into the PyMOL terminal and hit enter. Make sure to be in the right working directory before running the commands.
+
+![Alt text](images/sample_output.png)
